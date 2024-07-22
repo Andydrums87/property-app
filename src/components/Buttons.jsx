@@ -6,7 +6,7 @@ import App from "../App";
 
 function Buttons ({all, data, filter}) {
 
-    const [active, setActive] = useState("none");
+    const [active, setActive] = useState("first");
     const [newData, setNewData] = useState([])
     
 

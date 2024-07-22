@@ -9,7 +9,10 @@ lerna-debug.log*
 
 node_modules
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b7d934e65520c28065d9bf9a114a6a0ee7b4b702
 *.local
 
 # Editor directories and files

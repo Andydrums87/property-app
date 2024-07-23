@@ -16,7 +16,12 @@ body {
 
 .header__container {
  height:750px;
+ background-image: url(./images/hero-image.jpg);
+ background-repeat: no-repeat;
+ background-position: top center;
 }
+
+
 
 .header__info {
   position:absolute;
@@ -26,13 +31,14 @@ body {
   color: #121826;
 }
 
-.hero__img  {
-  width: 100%;
- /* max-width: 1280px; */
+/* .hero__img  {
+  width:100%;
+
   height: 80%; 
-}
-
-
+  object-fit: cover;
+  
+  
+} */
 
 
 @media (max-width: 800px) {
@@ -47,14 +53,20 @@ body {
 
 @media (max-width: 640px) {
 
+  .header__container {
+    background-image: url(./images/mobileimage.png);
+    background-position: bottom;
+    max-height:600px;
+  }
+
+ 
+
   .header__info {
     left:10%;
     
   }
 
-  .hero__img {
-    width:100%;
-  } 
+ 
 }
 
 #header__title {
@@ -84,6 +96,13 @@ body {
   background-color: #20293af2;
   border: 1px solid 
   #97A3B6;
+}
+
+@media (max-width:640px) {
+  .nav__container {
+   top:-70px;
+   height:fit-content
+  }
 }
 
  @media (max-width: 987px) {
@@ -185,6 +204,12 @@ padding-bottom: 100px;;
 
 }
 
+@media (max-width:640px) {
+  .card__container {
+    margin-top:60px;
+  }
+}
+
 .card {
   border: 1px solid #4A5567;;
   border-radius: 15px;;
@@ -264,6 +289,12 @@ hr {
   color: #F2F9FE;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+@media (max-width:640px) {
+  #body__title {
+    margin-top: 150px;;
+  }
 }
 
 .superhost {
